@@ -53,7 +53,7 @@ A complete end-to-end **Job Portal System** built using the **MERN Stack (MongoD
 | **Database** | MongoDB + Mongoose |
 | **Authentication** | JWT + Bcrypt + HTTP-only Cookies |
 | **File Uploads** | Multer (Profile Pics, Company Logo, Resume) |
-| **Tools** | Git, VS Code, Postman |
+| **Tools** | Git, VS Code, Postman
 
 ---
 
