@@ -132,7 +132,7 @@ const authSlice = createSlice({
 
       /* CHECK AUTH (AUTO LOGIN ON REFRESH) */
       .addCase(checkAuth.pending, (state) => {
-        state.loading = false; // prevent UI blocking
+        state.loading = true; // prevent UI blocking
       })
       .addCase(checkAuth.fulfilled, (state, action) => {
         state.loading = false;

@@ -35,11 +35,9 @@ const App = () => {
 
   // ⭐ Auto-login on refresh
   useEffect(() => {
-    // Only call /auth/me if cookie exists
-    if (document.cookie.includes("token")) {
-      dispatch(checkAuth());
-    }
-  }, [dispatch]);
+  dispatch(checkAuth());
+}, [dispatch]);
+
 
   return (
     <Router>
